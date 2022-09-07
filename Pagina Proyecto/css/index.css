@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url('../img/Facial2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenido {
+    width: 600px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.089);
+    box-shadow: 0 8px 32px 0 rgba(19, 2, 250, 0.534);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.062);
+}
+.titulo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    font-size: 35px;
+    text-decoration: underline;
+    color: rgb(42 30 253);
+    font-family: 'Silkscreen', cursive;
+}
+.form{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-view{
+    width: 90%;
+}
+
+input[type="email"],input[type="password"]{
+    width: 85%;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 0 35px;
+}
+/* input[type="text"]::placeholder{
+    
+} */
+.form-view p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    float: right;
+    margin: 10px;
+}
+.form-view a{
+    color: rgba(19, 2, 250, 0.534);
+    text-decoration: none;
+    font-size: 20px;
+}
+input[type="submit"]{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(42 30 253);
+    color: white;
+    border:none;
+    border-radius: 20px;
+}
